@@ -5,10 +5,10 @@ const Layout = () => {
 
     return (
         <>
-            <div className="flex flex-col min-h-screen h-screen w-screen">
+            <div className="flex flex-col min-h-screen h-screen w-full">
                 <Header />
-                <main className="flex-1 container mx-auto p-6">
-                    <Outlet /> 
+                <main>
+                    <Outlet />
                 </main>
                 <Footer />
             </div>

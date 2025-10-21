@@ -1,12 +1,17 @@
-type CardProps = {
-    children: React.ReactNode;
+interface CardProps {
+    title: string;
+    imagemUrl: string;
 }
-const Card = ( { children } : CardProps ) =>{
 
-    return(
+const Card = ({ title, imagemUrl }: CardProps) => {
+
+    return (
         <>
-            <div className="border border-black w-96 h-96 bg-gray-100 p-4 rounded shadow-md">
-                { children }
+            <div className="border border-black w-80 h-auto bg-gray-100 rounded shadow-md">
+                <img src={imagemUrl} alt={title} className="w-96 h-60" />
+                <div className="p-4">
+                    <h1 className="font-bold">{title}</h1>
+                </div>
             </div>
         </>
     )

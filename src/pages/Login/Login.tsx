@@ -1,13 +1,92 @@
-const Login = () => {
+import { useForm, type SubmitHandler } from "react-hook-form";
 
-    return (
-        <>
-            <div>
-
-
-            </div>
-        </>
-    )
+type FormValues = {
+  nome: string;
+  email: string;
+  senha: string;
 }
 
-export default Login
+const Login = () => {
+
+  const { register, handleSubmit, formState: { errors } } = useForm<FormValues>();
+
+  const onSubmit: SubmitHandler<FormValues> = (data) => {
+    console.log(data);
+  }
+
+  return (
+    <>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <div>
+          <div className="fieldset border border-black w-96 h-h mx-auto rounded p-4">
+            <h1 className="text-center pb-4">Login</h1>
+
+            <div className="text-center pb-3">
+              <label htmlFor="nome" className="pr-2">
+                Nome
+              </label>
+              <input
+                type="text"
+                className="bg-transparent border border-black rounded-sm w-4/5"
+                {...register("nome", {
+                  required: "O nome é obrigatório!"
+                })}
+              />
+              {errors.nome && <span style={{ color: 'red' }}>{errors.nome.message}</span>}
+            </div>
+
+            <div className="text-center pb-3">
+              <label htmlFor="email" className="pr-2">
+                Email
+              </label>
+              <input
+                type="email"
+                className="bg-transparent border border-black rounded-sm w-4/5"
+                {...register("email", {
+                  required: "O email é obrigatório",
+                  pattern: {
+                    value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                    message: "Digite um email correto"
+                  }
+                })}
+              />
+              {errors.email && <span style={{ color: 'red' }}>{errors.email.message}</span>}
+            </div>
+
+            <div className="text-center pb-3">
+              <label htmlFor="senha" className="pr-2">
+                Senha
+              </label>
+              <input
+                type="password"
+                 className="bg-transparent border border-black rounded-sm w-4/5"
+                {
+                ...register("senha", {
+                  required: "A senha é obrigatória!",
+                  minLength: { value: 6, message: "Mínimo de 6 caracteres" },
+                  validate: value =>
+                    !/[A-Z]/.test(value) ? "Deve conter uma letra maiúscula" :
+                      !/[a-z]/.test(value) ? "Deve conter uma letra minúscula" :
+                        !/\d/.test(value) ? "Deve conter um número" :
+                          !/[A-Za-z0-9]/.test(value) ? "Deve conter um caracter especial" :
+                            true
+                })
+                }
+              />
+              {errors.senha && <span style={{ color: 'red' }}>{errors.senha.message}</span>}
+            </div>
+            
+
+            <div className="flex justify-between">
+              <p className="my-auto">link de cadastro</p>
+              <button className="bg-blue-500 border border-black px-4 py-3  rounded">Enviar</button>
+            </div>
+
+          </div>
+        </div>
+      </form>
+    </>
+  );
+};
+
+export default Login;
