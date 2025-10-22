@@ -5,6 +5,8 @@ import Home from './pages/Home/Home'
 import Categorias from './pages/Categorias/Categorias'
 import FormReceitas from './pages/FormReceitas/FormReceitas'
 import Login from './pages/Login/Login'
+import Receita from './pages/Receita/Receita'
+
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
             <Route path="categorias" element={<Categorias />} />
             <Route path="formreceitas" element={<FormReceitas />} />
             <Route path="login" element={<Login />} />
+            <Route path="/receita/:link" element={ <Receita /> } />
           </Route>
         </Routes>
 

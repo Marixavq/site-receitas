@@ -1,0 +1,454 @@
+[
+    {
+        "id": 1,
+        "categoria": "Entradas",
+        "nome": "Bruschetta",
+        "link": "bruschetta",
+        "ingredientes": [
+            "Pão italiano",
+            "Tomate",
+            "Manjericão",
+            "Azeite e sal"
+        ],
+        "modoPreparo": "Toste o pão, cubra com tomate temperado e manjericão. Regue com azeite.",
+        "tempo": "15 minutos",
+        "imagem": "/imagens/bruschetta.jpg"
+    },
+    {
+        "id": 2,
+        "categoria": "Entradas",
+        "nome": "Salada Caprese",
+        "link": "salada-caprese",
+        "ingredientes": [
+            "Tomate",
+            "Mussarela de búfala",
+            "Manjericão",
+            "Azeite e sal"
+        ],
+        "modoPreparo": "Monte camadas de tomate e mussarela, tempere com azeite e sal e decore com manjericão.",
+        "tempo": "10 minutos",
+        "imagem": "/imagens/caprese.jpg"
+    },
+    {
+        "id": 3,
+        "categoria": "Entradas",
+        "nome": "Camarão Empanado",
+        "link": "camarao-empanado",
+        "ingredientes": [
+            "Camarões limpos",
+            "Farinha de trigo",
+            "Ovo",
+            "Farinha de rosca",
+            "Sal e pimenta"
+        ],
+        "modoPreparo": "Empane os camarões e frite até dourar.",
+        "tempo": "20 minutos",
+        "imagem": "/imagens/camarao_empanado.jpg"
+    },
+    {
+        "id": 4,
+        "categoria": "Entradas",
+        "nome": "Anéis de Cebola",
+        "link": "aneis-de-cebola",
+        "ingredientes": [
+            "Cebolas cortadas em rodelas",
+            "Farinha de trigo",
+            "Ovo",
+            "Farinha de rosca",
+            "Sal"
+        ],
+        "modoPreparo": "Empane as cebolas e frite até dourar.",
+        "tempo": "25 minutos",
+        "imagem": "/imagens/aneis_cebolla.jpg"
+    },
+    {
+        "id": 5,
+        "categoria": "Entradas",
+        "nome": "Espetinho de Frutas",
+        "link": "espetinho-de-frutas",
+        "ingredientes": [
+            "Frutas variadas",
+            "Palitos de churrasco"
+        ],
+        "modoPreparo": "Monte espetinhos com frutas cortadas.",
+        "tempo": "10 minutos",
+        "imagem": "/imagens/espetinho_frutas.jpg"
+    },
+    {
+        "id": 6,
+        "categoria": "Entradas",
+        "nome": "Patê de Azeitona",
+        "link": "pate-de-azeitona",
+        "ingredientes": [
+            "Azeitonas",
+            "Cream cheese",
+            "Alho",
+            "Azeite"
+        ],
+        "modoPreparo": "Bata todos os ingredientes no processador e sirva com torradas.",
+        "tempo": "15 minutos",
+        "imagem": "/imagens/pate_azeitona.jpg"
+    },
+    {
+        "id": 7,
+        "categoria": "Entradas",
+        "nome": "Guacamole",
+        "link": "guacamole",
+        "ingredientes": [
+            "2 abacates",
+            "Tomate",
+            "Cebola",
+            "Suco de limão",
+            "Sal"
+        ],
+        "modoPreparo": "Amasse os abacates e misture com os outros ingredientes.",
+        "tempo": "10 minutos",
+        "imagem": "/imagens/guacamole.jpg"
+    },
+    {
+        "id": 8,
+        "categoria": "Entradas",
+        "nome": "Rolinho Primavera",
+        "link": "rolinho-primavera",
+        "ingredientes": [
+            "Massa para rolinho primavera",
+            "Legumes picados",
+            "Molho de soja"
+        ],
+        "modoPreparo": "Recheie a massa com legumes, enrole e frite até dourar.",
+        "tempo": "30 minutos",
+        "imagem": "/imagens/rolinho_primavera.jpg"
+    },
+    {
+        "id": 9,
+        "categoria": "Entradas",
+        "nome": "Omelete de Forno",
+        "link": "omelete-de-forno",
+        "ingredientes": [
+            "3 ovos",
+            "Legumes variados",
+            "Sal e pimenta"
+        ],
+        "modoPreparo": "Misture os ovos com os legumes, tempere e leve ao forno por 20 minutos.",
+        "tempo": "25 minutos",
+        "imagem": "/imagens/omelete_forno.jpg"
+    },
+    {
+        "id": 10,
+        "categoria": "Entradas",
+        "nome": "Canapés de Salmão",
+        "link": "canapes-de-salmao",
+        "ingredientes": [
+            "Pão de forma",
+            "Cream cheese",
+            "Salmão defumado",
+            "Endro"
+        ],
+        "modoPreparo": "Corte o pão, passe cream cheese, coloque o salmão e decore com endro.",
+        "tempo": "15 minutos",
+        "imagem": "/imagens/canape_salmao.jpg"
+    },
+    {
+        "id": 11,
+        "categoria": "Pratos Principais",
+        "nome": "Frango Assado",
+        "link": "frango-assado",
+        "ingredientes": [
+            "1 frango inteiro",
+            "Sal, pimenta e alho a gosto",
+            "Ervas finas"
+        ],
+        "modoPreparo": "Tempere o frango e asse no forno a 200°C por 1 hora.",
+        "tempo": "1 hora 10 minutos",
+        "imagem": "/imagens/frango_assado.jpg"
+    },
+    {
+        "id": 12,
+        "categoria": "Pratos Principais",
+        "nome": "Lasanha à Bolonhesa",
+        "link": "lasanha-a-bolonhesa",
+        "ingredientes": [
+            "500g de massa para lasanha",
+            "500g de carne moída",
+            "Molho de tomate",
+            "Queijo mussarela",
+            "Queijo parmesão"
+        ],
+        "modoPreparo": "Monte camadas de massa, carne, molho e queijo. Leve ao forno a 180°C por 40 minutos.",
+        "tempo": "1 hora",
+        "imagem": "/imagens/lasanha.jpg"
+    },
+    {
+        "id": 13,
+        "categoria": "Pratos Principais",
+        "nome": "Macarrão ao Alho e Óleo",
+        "link": "macarrao-ao-alho-e-oleo",
+        "ingredientes": [
+            "500g de macarrão",
+            "4 dentes de alho",
+            "Azeite",
+            "Sal e pimenta"
+        ],
+        "modoPreparo": "Cozinhe o macarrão. Frite o alho no azeite e misture com a massa. Tempere com sal e pimenta.",
+        "tempo": "20 minutos",
+        "imagem": "/imagens/macarrao_alho_oleo.jpg"
+    },
+    {
+        "id": 14,
+        "categoria": "Pratos Principais",
+        "nome": "Estrogonofe de Frango",
+        "link": "estrogonofe-de-frango",
+        "ingredientes": [
+            "500g de peito de frango",
+            "1 cebola picada",
+            "200g de creme de leite",
+            "Molho de tomate",
+            "Sal e pimenta"
+        ],
+        "modoPreparo": "Refogue a cebola e o frango, adicione molho de tomate e creme de leite. Cozinhe por 15 minutos.",
+        "tempo": "30 minutos",
+        "imagem": "/imagens/estrogonofe.jpg"
+    },
+    {
+        "id": 15,
+        "categoria": "Pratos Principais",
+        "nome": "Arroz de Forno",
+        "link": "arroz-de-forno",
+        "ingredientes": [
+            "2 xícaras de arroz cozido",
+            "1 lata de milho",
+            "1 lata de ervilha",
+            "Queijo mussarela",
+            "Presunto"
+        ],
+        "modoPreparo": "Misture todos os ingredientes, coloque em forma e leve ao forno por 20 minutos.",
+        "tempo": "40 minutos",
+        "imagem": "/imagens/arroz_forno.jpg"
+    },
+    {
+        "id": 16,
+        "categoria": "Pratos Principais",
+        "nome": "Feijoada",
+        "link": "feijoada",
+        "ingredientes": [
+            "500g de feijão preto",
+            "Carnes variadas",
+            "Linguiça",
+            "Cebola, alho e temperos"
+        ],
+        "modoPreparo": "Cozinhe o feijão e as carnes juntas até ficarem macias. Tempere a gosto.",
+        "tempo": "2 horas",
+        "imagem": "/imagens/feijoada.jpg"
+    },
+    {
+        "id": 17,
+        "categoria": "Pratos Principais",
+        "nome": "Peixe Grelhado",
+        "link": "peixe-grelhado",
+        "ingredientes": [
+            "Filés de peixe",
+            "Sal, limão e azeite",
+            "Ervas finas"
+        ],
+        "modoPreparo": "Tempere os filés e grelhe por 5 minutos de cada lado.",
+        "tempo": "20 minutos",
+        "imagem": "/imagens/peixe_grelhado.jpg"
+    },
+    {
+        "id": 18,
+        "categoria": "Pratos Principais",
+        "nome": "Hambúrguer Caseiro",
+        "link": "hamburguer-caseiro",
+        "ingredientes": [
+            "500g de carne moída",
+            "Sal e pimenta",
+            "Pão de hambúrguer",
+            "Queijo, alface e tomate"
+        ],
+        "modoPreparo": "Forme os hambúrgueres, grelhe por 5-6 minutos de cada lado e monte os sanduíches.",
+        "tempo": "30 minutos",
+        "imagem": "/imagens/hamburguer.jpg"
+    },
+    {
+        "id": 19,
+        "categoria": "Pratos Principais",
+        "nome": "Panqueca de Carne",
+        "link": "panqueca-de-carne",
+        "ingredientes": [
+            "Massa para panqueca",
+            "500g de carne moída",
+            "Molho de tomate",
+            "Queijo"
+        ],
+        "modoPreparo": "Recheie a massa com carne e molho, enrole e leve ao forno com queijo por 20 minutos.",
+        "tempo": "40 minutos",
+        "imagem": "/imagens/panqueca.jpg"
+    },
+    {
+        "id": 20,
+        "categoria": "Pratos Principais",
+        "nome": "Risoto de Frango",
+        "link": "risoto-de-frango",
+        "ingredientes": [
+            "1 xícara de arroz arbóreo",
+            "Peito de frango em cubos",
+            "Cebola e alho",
+            "Caldo de galinha",
+            "Queijo parmesão"
+        ],
+        "modoPreparo": "Refogue o frango, cebola e alho. Adicione arroz e caldo aos poucos até ficar cremoso. Finalize com parmesão.",
+        "tempo": "40 minutos",
+        "imagem": "/imagens/risoto.jpg"
+    },
+    {
+        "id": 21,
+        "categoria": "Sobremesas",
+        "nome": "Brigadeiro",
+        "link": "brigadeiro",
+        "ingredientes": [
+            "1 lata de leite condensado",
+            "1 colher de manteiga",
+            "3 colheres de chocolate em pó"
+        ],
+        "modoPreparo": "Misture todos os ingredientes e leve ao fogo baixo, mexendo até soltar do fundo da panela.",
+        "tempo": "20 minutos",
+        "imagem": "/imagens/brigadeiro.jpg"
+    },
+    {
+        "id": 22,
+        "categoria": "Sobremesas",
+        "nome": "Pudim de Leite",
+        "link": "pudim-de-leite",
+        "ingredientes": [
+            "1 lata de leite condensado",
+            "2 latas de leite",
+            "3 ovos",
+            "Açúcar para caramelizar"
+        ],
+        "modoPreparo": "Bata o leite condensado, leite e ovos. Caramelize a forma e leve ao forno em banho-maria por 1 hora.",
+        "tempo": "1 hora 10 minutos",
+        "imagem": "/imagens/pudim.jpg"
+    },
+    {
+        "id": 23,
+        "categoria": "Sobremesas",
+        "nome": "Mousse de Maracujá",
+        "link": "mousse-de-maracuja",
+        "ingredientes": [
+            "1 lata de leite condensado",
+            "1 lata de creme de leite",
+            "1 lata de suco de maracujá concentrado"
+        ],
+        "modoPreparo": "Bata todos os ingredientes no liquidificador e leve à geladeira por 3 horas.",
+        "tempo": "3 horas",
+        "imagem": "/imagens/mousse_maracuja.jpg"
+    },
+    {
+        "id": 24,
+        "categoria": "Sobremesas",
+        "nome": "Torta de Limão",
+        "link": "torta-de-limao",
+        "ingredientes": [
+            "1 pacote de biscoito de maisena",
+            "100g de manteiga",
+            "1 lata de leite condensado",
+            "Suco de 3 limões"
+        ],
+        "modoPreparo": "Triture os biscoitos e misture com manteiga para a base. Misture leite condensado com limão para o recheio. Leve à geladeira por 2 horas.",
+        "tempo": "2 horas 30 minutos",
+        "imagem": "/imagens/torta_limao.jpg"
+    },
+    {
+        "id": 25,
+        "categoria": "Sobremesas",
+        "nome": "Brownie",
+        "link": "brownie",
+        "ingredientes": [
+            "200g de chocolate meio amargo",
+            "150g de manteiga",
+            "3 ovos",
+            "1 xícara de açúcar",
+            "1/2 xícara de farinha de trigo"
+        ],
+        "modoPreparo": "Derreta o chocolate com manteiga. Misture com ovos e açúcar. Adicione a farinha. Leve ao forno por 25 minutos.",
+        "tempo": "40 minutos",
+        "imagem": "/imagens/brownie.jpg"
+    },
+    {
+        "id": 26,
+        "categoria": "Sobremesas",
+        "nome": "Pavê de Chocolate",
+        "link": "pave-de-chocolate",
+        "ingredientes": [
+            "1 pacote de biscoito champagne",
+            "200g de chocolate meio amargo",
+            "1 lata de creme de leite",
+            "1 lata de leite condensado"
+        ],
+        "modoPreparo": "Monte camadas de biscoito e creme de chocolate derretido com leite condensado e creme de leite. Leve à geladeira por 3 horas.",
+        "tempo": "3 horas 20 minutos",
+        "imagem": "/imagens/pave_chocolate.jpg"
+    },
+    {
+        "id": 27,
+        "categoria": "Sobremesas",
+        "nome": "Sorvete Caseiro",
+        "link": "sorvete-caseiro",
+        "ingredientes": [
+            "500ml de creme de leite fresco",
+            "1 lata de leite condensado",
+            "Frutas ou chocolate para sabor"
+        ],
+        "modoPreparo": "Bata o creme de leite em chantilly, misture com leite condensado e sabor desejado. Congele por 4 horas.",
+        "tempo": "4 horas",
+        "imagem": "/imagens/sorvete_caseiro.jpg"
+    },
+    {
+        "id": 28,
+        "categoria": "Sobremesas",
+        "nome": "Cheesecake",
+        "link": "cheesecake",
+        "ingredientes": [
+            "200g de biscoito de maisena",
+            "100g de manteiga",
+            "300g de cream cheese",
+            "1 lata de leite condensado",
+            "Suco de 1 limão"
+        ],
+        "modoPreparo": "Triture biscoitos e misture com manteiga para a base. Misture cream cheese, leite condensado e limão para o recheio. Leve à geladeira por 4 horas.",
+        "tempo": "4 horas 30 minutos",
+        "imagem": "/imagens/cheesecake.jpg"
+    },
+    {
+        "id": 29,
+        "categoria": "Sobremesas",
+        "nome": "Gelatina Colorida",
+        "link": "gelatina-colorida",
+        "ingredientes": [
+            "3 pacotes de gelatina de sabores diferentes",
+            "1 lata de leite condensado",
+            "1 lata de creme de leite"
+        ],
+        "modoPreparo": "Prepare cada gelatina separadamente e corte em cubos. Misture com leite condensado e creme de leite. Leve à geladeira por 2 horas.",
+        "tempo": "2 horas 20 minutos",
+        "imagem": "/imagens/gelatina_colorida.jpg"
+    },
+    {
+        "id": 30,
+        "categoria": "Sobremesas",
+        "nome": "Bolo de Cenoura com Cobertura de Chocolate",
+        "link": "bolo-de-cenoura-com-cobertura-de-chocolate",
+        "ingredientes": [
+            "3 cenouras médias",
+            "4 ovos",
+            "1 xícara de óleo",
+            "2 xícaras de açúcar",
+            "2 e 1/2 xícaras de farinha de trigo",
+            "1 colher de sopa de fermento",
+            "Chocolate em pó e manteiga para cobertura"
+        ],
+        "modoPreparo": "Bata cenoura, ovos e óleo. Misture com açúcar e farinha. Acrescente fermento. Asse por 40 minutos. Cubra com chocolate derretido e manteiga.",
+        "tempo": "1 hora 10 minutos",
+        "imagem": "/imagens/bolo_cenoura.jpg"
+    }
+]
