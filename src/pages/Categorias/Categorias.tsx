@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import type { ReceitaTipos } from "../../Types/ReceitaTipos";
 
 const Categorias = () => {
+
     const [receitas, setReceitas] = useState<ReceitaTipos[]>([]);
 
     useEffect(() => {

@@ -18,6 +18,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />   {/* rotas filhas do layout */}
             <Route path="categorias" element={<Categorias />} />
+            <Route path="categorias/:nomeCategoria" element={<Categorias />} />
             <Route path="formreceitas" element={<FormReceitas />} />
             <Route path="login" element={<Login />} />
             <Route path="/receita/:link" element={ <Receita /> } />

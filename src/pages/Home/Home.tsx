@@ -4,9 +4,9 @@ const Home = () => {
     return (
         <>
             <div className="flex justify-between">
-                <Card title="Entrada" imagemUrl="/imagens/lamenanime.jfif"></Card>
-                <Card title="Pratos Principais" imagemUrl="/imagens/lamenanime.jfif"></Card>
-                <Card title="Sobremesas" imagemUrl="/imagens/lamenanime.jfif"></Card>
+                <Card titulo="Entrada" imagem="/imagens/lamenanime.jfif" link="/categorias/entradas"></Card>
+                <Card titulo="Pratos Principais" imagem="/imagens/lamenanime.jfif" link="/categorias/pratos-principais"></Card>
+                <Card titulo="Sobremesas" imagem="/imagens/lamenanime.jfif" link="/categorias/sobremesas"></Card>
             </div>
         </>
     )

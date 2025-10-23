@@ -21,7 +21,7 @@ const Receita = () => {
         return (
             <>
 
-                <h1>Receita não encontrado!</h1>
+                <h1>Receita não encontrada!</h1>
             </>
         )
     }

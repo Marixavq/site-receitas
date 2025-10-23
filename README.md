@@ -1,69 +1,48 @@
-# React + TypeScript + Vite
+# Site de receitas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitezinho de receitas em desenvolvimento.
 
-Currently, two official plugins are available:
+## 🗂️ Estrutura de pastas e arquivos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    projeto
+        public
+          data
+            receitas.json
+          imagens
+            pastas de imagens (jpg/png; svg)
+        src
+            assets
+            components
+                Componente.tsx
+            pages
+                Pagina.tsx
+            App.tsx
+            main.tsx
 
-## Expanding the ESLint configuration
+        index.html
+        README.md
+        tsconfig.json
+        package.json
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tecnologias
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React, Tailwnd e TypeScript
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 👥 Integrantes
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+    Nome: 
+      Júlia Tiziotto Buttler
+      RM: 564975
+      GITHUB: JuliaTButtler
+      LINKEDIN: Júlia T Buttler
+      Turma: 1TDSA
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+      Mariana Xavier Quispe
+      RM: 566357
+      GITHUB: Marixavq
+      LINKEDIN: Mariana Xavier Quispe
+      Turma: 1TDSA
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📂 Endereço do projeto na Vercel
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Colocar na Vercel
