@@ -33,7 +33,7 @@ const Receita = () => {
 
                 <ul>
                     <li>
-                        <strong>Ingredientes:</strong>
+                        <p className="text-2xl font-semibold mt-6 mb-2">Ingredientes:</p>
                         <ul className="list-disc list-inside ml-4">
                             {receita.ingredientes.map((item, index) => (
                                 <li key={index}>{item}</li>
@@ -42,11 +42,11 @@ const Receita = () => {
                     </li>
 
                     <li>
-                        <strong>Modo de preparo:</strong> {receita.modoPreparo}
+                        <p className="text-2xl font-semibold mt-6 mb-2">Modo de preparo:</p> {receita.modoPreparo}
                     </li>
 
                     <li>
-                        <strong>Tempo de preparo:</strong> {receita.tempo}
+                        <p className="text-2xl font-semibold mt-6 mb-2">Tempo de preparo:</p> {receita.tempo}
                     </li>
                 </ul>
 
