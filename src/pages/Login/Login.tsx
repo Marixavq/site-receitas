@@ -17,9 +17,10 @@ const Login = () => {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <div>
-          <div className="fieldset border border-black w-96 h-h mx-auto rounded p-4">
-            <h1 className="text-center pb-4">Login</h1>
+
+        <div className="p-8 bg-amber-50">
+          <h1 className="text-center text-2xl pb-8">Login</h1>
+          <div className="w-auto bg-yellow-50 fieldset border border-black m-auto rounded p-5 py-8 md:w-80 lg:w-96">
 
             <div className="text-center pb-3">
               <label htmlFor="nome" className="pr-2">
@@ -27,6 +28,7 @@ const Login = () => {
               </label>
               <input
                 type="text"
+                id="nome"
                 className="bg-transparent border border-black rounded-sm w-4/5"
                 {...register("nome", {
                   required: "O nome é obrigatório!"
@@ -41,6 +43,7 @@ const Login = () => {
               </label>
               <input
                 type="email"
+                id="email"
                 className="bg-transparent border border-black rounded-sm w-4/5"
                 {...register("email", {
                   required: "O email é obrigatório",
@@ -59,7 +62,8 @@ const Login = () => {
               </label>
               <input
                 type="password"
-                 className="bg-transparent border border-black rounded-sm w-4/5"
+                id="senha"
+                className="bg-transparent border border-black rounded-sm w-4/5"
                 {
                 ...register("senha", {
                   required: "A senha é obrigatória!",
@@ -75,11 +79,10 @@ const Login = () => {
               />
               {errors.senha && <span style={{ color: 'red' }}>{errors.senha.message}</span>}
             </div>
-            
 
-            <div className="flex justify-between">
-              <p className="my-auto">link de cadastro</p>
-              <button className="bg-blue-500 border border-black px-4 py-3  rounded">Enviar</button>
+
+            <div className="flex justify-end">
+              <button className="bg-blue-500 border border-black px-4 py-3 rounded">Enviar</button>
             </div>
 
           </div>

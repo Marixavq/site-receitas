@@ -10,15 +10,15 @@ const Card = ({ titulo, imagem, link }: CardProps) => {
 
     return (
         <>
-            <div className="border border-black w-80 h-auto bg-gray-100 rounded shadow-md">
+            <div className="border border-black m-auto rounded-sm mb-10">
                 <Link to={link}>
-                    <img src={imagem} alt={titulo} className="w-96 h-60" />
-                    <div className="p-4">
-                        <h1 className="font-bold">{titulo}</h1>
+                    <img src={imagem} alt={titulo} className="w-48 rounded md:w-56 lg:w-72" />
+                    <div className="p-3">
+                        <h1 className="font-bold text-center">{titulo}</h1>
                     </div>
                 </Link>
             </div>
-        </>
+        </> 
     )
 }
 export default Card
