@@ -1,19 +1,19 @@
-import { Link } from "react-router-dom";
+import NavItem from "../NavItem/NavItem";
 
 const Footer = () => {
   return (
     <>
-      <div className="bg-amber-100 flex flex-col text-center px-20 py-8 md:flex-row justify-between">
-        <p className="my-auto py-5">FrontReceitas</p>
-
+    
+      <footer className="bg-amber-100 flex flex-col text-center px-20 py-8 md:flex-row justify-between">
+        <p className="font-serif text-orange-600 my-auto py-5 text-xl">FrontReceitas</p>
         <nav className="pb-5 flex flex-col justify-between">
-          <Link to="/" className="hover:text-red-800 hover:transition-all duration-700">Home</Link>
-          <Link to="/categorias" className="hover:text-red-800 hover:transition-all duration-700">Todas as receitas</Link>
-          <Link to="/formreceitas" className="hover:text-red-800 hover:transition-all duration-700">Envie suas receitas</Link>
-          <Link to="/login" className="hover:text-red-800 hover:transition-all duration-700">Login</Link>
+          <NavItem to="/" label="Home" />
+          <NavItem to="/categorias" label="Todas as receitas" />
+          <NavItem to="/formreceitas" label="Envie suas receitas" />
+          <NavItem to="/login" label="Login" />
         </nav>
 
-        <div className="pb-5">
+        <div className="pb-5 md:text-lg">
           <div className="py-2">
             <p>Mariana Xavier Quispe</p>
             <p>566357</p>
@@ -23,8 +23,7 @@ const Footer = () => {
             <p>564975</p>
           </div>
         </div>
-
-      </div>
+      </footer>
     </>
   );
 };

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import type { ReceitaTipos } from "../../Types/ReceitaTipos";
 
+
 const Categorias = () => {
     const { nomeCategoria } = useParams();
     const [receitas, setReceitas] = useState<ReceitaTipos[]>([]);
@@ -35,16 +36,17 @@ const Categorias = () => {
             <div className="bg-amber-50 p-10">
                 <h1 className="text-center text-2xl">Receitas</h1>
                 <h2 className="text-center text-2xl pb-10">{nomeCategoria}</h2>
-                <ul>
-                    {
-                        receitas.map((receita) => (
-                            <ul className="list-disc list-inside ml-4">
-                                <li key={receita.id}>
-                                    <Link to={`/receita/${receita.link}`}>{receita.nome}</Link>
-                                </li>
-                            </ul>
-                        ))
-                    }
+                <ul className="list-disc list-inside ml-4">
+                    {receitas.map((receita) => (
+                        <li key={receita.id}>
+                            <Link
+                                to={`/receita/${receita.link}`}
+                                className="hover:text-red-800 transition-colors duration-700"
+                            >
+                                {receita.nome}
+                            </Link>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </>

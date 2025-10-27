@@ -3,10 +3,8 @@
 Projeto desenvolvido para exibir receitas de forma organizada e simplificada
 O FrontReceitas permite visualizar receitas divididas por categorias — entradas, pratos principais e sobremesas — com detalhes sobre ingredientes, modo e tempo de preparo.
 
----
 
 ## 🎯 Objetivo do Projeto
-
 O FrontReceitas tem como objetivo criar uma interface intuitiva e atrativa para navegação entre receitas culinárias, aplicando conceitos de React, componentização, rotas dinâmicas e consumo de JSON local.  
 
 
